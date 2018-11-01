@@ -1,0 +1,58 @@
+<% include header %>
+<link rel="stylesheet" href="css/w04.css">
+<body>
+	   <ul>
+        <li id = "mart">-- Marton's Webpage --<li>
+        <li><a href="/index">Home</a></li>
+        <li><a href="/form">Contact</a></li>
+        <li><a href="/tic-tac-toe">Tic-Tac-Toe</a></li>
+        <li><a href="/Eggs">Calculate Eggs</a></li>
+      </ul>
+
+	<!-- A BootStrap container is used to adjust the layout of the contents based on screen size. .container uses pre-built screen sizes, while .container-fluid adjusts continously.-->
+	<div class="container-fluid">
+		<!-- BootStrap grid system using one row that could have several columns (when the screen size is large enough) -->
+		<div class="row">
+			<div class="col-sm-12">
+				<br>
+				<br>
+				<p>Caluclate the number of eggs in your carton by clicking below.</p>
+				
+				<br>
+				<br>
+				<!-- http://v4-alpha.getbootstrap.com/components/buttons/ -->
+				<button onclick="App.launch()" class="btn btn-lg btn-danger">Click me</button>
+				<br/>
+				<br/>
+				<aside id="clicks"></aside>
+			</div>
+			<div class="col-sm-12">
+				<br/>
+				<span id="first"></span>
+				<span id="last"></span>
+				<br/>
+				<span id="width"></span>
+				<span class="displayText">x</span>
+				<span id="length"></span>
+				<span class="displayText">=</span>
+				<span id="area"></span>
+				<span class="displayText">Carton Holes</span>
+				<br/>
+				<span class="displayText">~</span>
+				<span id="count"> </span>
+				<span class="displayText">Eggs</span>
+				<br/>
+
+				<span id="displayPlace">&nbsp;</span>
+				<div class="col-sm-12">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="W04.js"></script>
+</body>
+
+<% include footer %>

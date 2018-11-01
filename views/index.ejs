@@ -1,26 +1,33 @@
-<!doctype <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio @Archer1147</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
-</head>
-<body>
-    <header class="v-header container">
-    <div class="fullscreen-video-wrap">
-    <video id="video" autoplay loop muted>
-        <source src="/images/Alive.mp4" type="video/mp4">
-    </video></div>
-    <div class="header-overlay"></div>
-    <div class="header-content">
-        <h1>Hello Everyone</h1>
-        <P>Let me welcome you to my website. This is a project i have started after a long time.
-            I really hope you like it.
-        </P>
-        <a href="/about" class="btn">Read More..</a>
-    </div>
+<% include header %>
+<link rel="stylesheet" href="css/yourname.css">
+	<h1> Marton Bagoly's Introduction </h1>
 </header>
+<img id="profile_pic" src =images/Marton.JPG>
+
+<main> 
+	<article>
+		<section id="intro-section">
+			<h2 class="section-header"> A little about me </h2>
+			<p>I am currently working on a Computer Science degree and a minor in Business. 
+			This is my third year at Northwest and will be graduating the Spring of 2020 (fingers crossed!).
+		</p>
+		</section>
+		<section id="past-section">
+			<h2 class="section-header"> More history </h2>
+			<p>I moved to Maryville about 10 years ago when my mother was hired as a math professor at Northwest. 
+			Growing up here gave me a lot of experience with preparing for college and learning how to be a successful student.
+				</p>
+		</section>
+		<section id="future-section">
+			<h2 class="section-header"> Current Ambitions </h2>
+			<p>I am currently the owner of a landscaping, lawn-care, tree service company. 
+			I started it four years ago and has grown to an impressive size in such a short period, keeping me very busy for a majority of the year.
+			Through my growing experience in business management and excavation, I plan to start a civil engineering/excavating firm once I receive my diploma and sell my current business. </p>
+		</section>
+</article>
+<div>
+	<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+</main>
 </body>
-</html>
+<% include footer %>

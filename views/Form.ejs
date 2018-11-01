@@ -1,0 +1,35 @@
+<%include header %>
+<link rel="stylesheet" href="css/form.css">
+	<h1> Form </h1>
+</header>
+<a href="https://www.linkedin.com/in/marton-bagoly-2aa09816b/"> linkedIn</a>
+<a href="https://github.com/Roto281">GitHub</a>
+<a href="https://bitbucket.org/MartonBagoly/">BitBucket</a>
+<main> 
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+        </form>
+      </div>
+
+</main>
+<input type="submit" name="submitbutton" onclick="alert('Thank you for submitting your information, it will be emailed and processed on our servers.')" value="Submit">
+
+</body>
+<% include footer %>

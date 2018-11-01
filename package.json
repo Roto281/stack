@@ -1,7 +1,7 @@
 {
-    "name": "a03",
+    "name": "W08",
     "version": "0.0.1",
-    "description": "resume app development",
+    "description": "STACK",
     "main": "app.js",
     "scripts": {
         "start": "node app.js"

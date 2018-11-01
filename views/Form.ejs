@@ -1,21 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link href="form.css" type="text/css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-	<title>About Marton Bagoly</title>
-</head> 
-<body>
-    <ul>
-      <li id = "mart">-- Marton's Webpage --<li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="form.html">Contact</a></li>
-        <li><a href="tic-tac-toe.html">Tic-Tac-Toe</a></li>
-        <li><a href="Eggs.html">Calculate Eggs</a></li>
-      </ul>
-<header>
+<%include header %>
+<link rel="stylesheet" href="css/form.css">
 	<h1> Form </h1>
 </header>
 <a href="https://www.linkedin.com/in/marton-bagoly-2aa09816b/"> linkedIn</a>
@@ -48,4 +32,4 @@
 <input type="submit" name="submitbutton" onclick="alert('Thank you for submitting your information, it will be emailed and processed on our servers.')" value="Submit">
 
 </body>
-</html>
+<% include footer %>
